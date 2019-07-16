@@ -1,0 +1,134 @@
+[ {
+  "method": "post",
+  "apiName": "/registerUser",
+  "isRemoteAPI": 0,
+  "businessClass": "usercontroller",
+  "auth": "basic"
+},
+{
+  "method": "post",
+  "apiName": "/validateEmail",
+  "isRemoteAPI": 0,
+  "businessClass": "validateUserController",
+  "auth": "basic"
+},
+{
+  "method": "post",
+  "apiName": "/loginUser",
+  "isRemoteAPI": 0,
+  "businessClass": "loginController",
+  "auth": "basic"
+},
+{
+  "method": "get",
+  "apiName": "/getCountries",
+  "isRemoteAPI": 0,
+  "businessClass": "countryMasterController",
+  "auth": "basic"
+},
+{
+  "method": "post",
+  "apiName": "/getCountriess",
+  "isRemoteAPI": 0,
+  "businessClass": "countryMasterController",
+  "auth": "basic"
+},
+{
+  "method": "post",
+  "apiName": "/getFriendsList",
+  "isRemoteAPI": 0,
+  "businessClass": "find-Friends-of-Same-Intrest",
+  "auth": "basic"
+},
+{
+  "method": "post",
+  "apiName": "/getFriendsProfileDetails",
+  "isRemoteAPI": 0,
+  "businessClass": "Friends-Profile-Detail",
+  "auth": "basic"
+},
+{
+  "method": "get",
+  "apiName": "/getAllMasterData",
+  "isRemoteAPI": 0,
+  "businessClass": "Master-Data-Controller",
+  "auth": "basic"
+},
+{
+  "method": "post",
+  "apiName": "/getAllMasterDatas",
+  "isRemoteAPI": 0,
+  "businessClass": "Master-Data-Controller",
+  "auth": "basic"
+},
+{
+  "method": "post",
+  "apiName": "/getSubCourseList",
+  "isRemoteAPI": 0,
+  "businessClass": "get-sub-course-controller",
+  "auth": "basic"
+},
+{
+  "method": "post",
+  "apiName": "/getResurantRelatedCuisine",
+  "isRemoteAPI": 0,
+  "businessClass": "resturant-related-cuisine",
+  "auth": "basic"
+},
+{
+  "method": "post",
+  "apiName": "/makeMeetupRequest",
+  "isRemoteAPI": 0,
+  "businessClass": "friend_request_controller",
+  "auth": "basic"
+},
+{
+  "method": "post",
+  "apiName": "/scheduleMeeting",
+  "isRemoteAPI": 0,
+  "businessClass": "make-friends-meetUpController",
+  "auth": "basic"
+},
+{
+  "method": "post",
+  "apiName": "/getMeetupNotifications",
+  "isRemoteAPI": 0,
+  "businessClass": "meetup-notification-controller",
+  "auth": "basic"
+},
+{
+  "method": "post",
+  "apiName": "/acceptRejectRequest",
+  "isRemoteAPI": 0,
+  "businessClass": "friend-accept-reject",
+  "auth": "basic"
+},
+{
+  "method": "post",
+  "apiName": "/meetUpAcceptReject",
+  "isRemoteAPI": 0,
+  "businessClass": "meetup-accept-reject",
+  "auth": "basic"
+},
+{
+  "method": "post",
+  "apiName": "/checkBeforeSchedule",
+  "isRemoteAPI": 0,
+  "businessClass": "check-meetup-schedule",
+  "auth": "basic"
+},
+{
+  "method": "post",
+  "apiName": "/checkBeforeFriendRequest",
+  "isRemoteAPI": 0,
+  "businessClass": "check-before-friendrequest",
+  "auth": "basic"
+},
+{
+  "method": "get",
+  "apiName": "/getEmployee/:job",
+  "isRemoteAPI": 0,
+  "businessClass": "get-user-controller",
+  "auth": "basic"
+}
+]
